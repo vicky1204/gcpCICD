@@ -1,9 +1,0 @@
-apiVersion: deploy.cloud.google.com/v1
-kind: Target
-metadata:
-  name: dev
-  annotations: {}
-  labels: {}
-description: dev
-gke:
-  cluster: projects/voltaic-mantra-457308-j7/locations/us-central1-c/clusters/cluster-1

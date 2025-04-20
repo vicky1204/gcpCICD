@@ -1,4 +1,0 @@
-# Use a JDK base image
-FROM openjdk:17-jdk-slim
-COPY target/*.jar gcpCICD.jar
-ENTRYPOINT ["java", "-jar", "/gcpCICD.jar"]
